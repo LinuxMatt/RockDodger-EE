@@ -1,0 +1,18 @@
+language: c
+sudo: false
+
+compiler:
+    - clang
+    - gcc
+
+addons:
+  apt:
+    packages:
+    - build-essential
+    - automake
+    - autoconf
+    - libsdl1.2-dev
+    - libsdl-image1.2-dev
+    - libsdl-mixer1.2-dev
+
+script: cd rockdodger-ee/build/ && make
