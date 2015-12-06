@@ -1,5 +1,6 @@
 Rock Dodger Extra Edition
 ==========================
+[![Build Status](https://travis-ci.org/LinuxMatt/RockDodger-EE.svg)](https://travis-ci.org/LinuxMatt/RockDodger-EE)
 
 Purpose of the game: avoid the rocks as long as you can!
 
